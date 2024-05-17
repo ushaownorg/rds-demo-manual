@@ -3,15 +3,15 @@ package rules.relational_database_instanc_s_jpmc_encryption_algorithms
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDBQATEST": [
-				"RelationalDBQATEST_A"
+			"RelationalDB": [
+				"RelationalDB_A"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
 	"id": "A",
-	"title": "Relational database instances and clusters shall be encrypted at rest using JPMC standard encryption algorithms.",
+	"title": "Relational database instances and clusters shall be encrypted at rest using organisation standard encryption algorithms.",
 }
 
 # Please write your OPA rule here

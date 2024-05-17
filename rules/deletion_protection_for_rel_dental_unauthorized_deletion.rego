@@ -3,8 +3,8 @@ package rules.deletion_protection_for_rel_dental_unauthorized_deletion
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDBQATEST": [
-				"RelationalDBQATEST_I"
+			"RelationalDB": [
+				"RelationalDB_H"
 			]
 		},
 		"severity": "Medium"
