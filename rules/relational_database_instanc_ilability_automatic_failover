@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
+	"description": "Document: Technology Engineering - Relational database - Best Practice",
 	"id": "E",
 	"title": "Relational database instances and clusters shall be configured for multiple Availability Zones (Multi-AZ) to ensure high availability and automatic failover.",
 }

@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
+	"description": "Document: Technology Engineering - Relational database - Best Practice",
 	"id": "A",
 	"title": "Relational database instances and clusters shall be encrypted at rest using organisation standard encryption algorithms.",
 }

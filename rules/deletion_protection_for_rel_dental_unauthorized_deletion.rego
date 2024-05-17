@@ -9,8 +9,8 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "I",
+	"description": "Document: Technology Engineering - Relational database - Best Practice",
+	"id": "H",
 	"title": "Deletion protection not be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
 }
 

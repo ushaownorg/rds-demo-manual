@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
+	"description": "Document: Technology Engineering - Relational database - Best Practice",
 	"id": "C",
 	"title": "Relational database instances and clusters shall be deployed within a Virtual Private Cloud (VPC) and secured using appropriate security groups and network access control lists (NACLs).",
 }

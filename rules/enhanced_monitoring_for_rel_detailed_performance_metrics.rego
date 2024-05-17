@@ -9,8 +9,8 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "H",
+	"description": "Document: Technology Engineering - Relational database - Best Practice",
+	"id": "G",
 	"title": "Enhanced monitoring shall be enabled for Relational database instances to collect detailed performance metrics.",
 }
 
