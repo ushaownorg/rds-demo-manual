@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice",
+	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
 	"id": "B",
 	"title": "Relational database snapshots and backups shall be encrypted at rest.",
 }
