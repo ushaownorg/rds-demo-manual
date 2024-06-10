@@ -1,20 +1,21 @@
-package rules.enhanced_monitoring_for_rel_detailed_performance_metrics
+package rules.relational_database_instanc_s_jpmc_encryption_algorithms
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"RelationalDB": [
-				"RelationalDB_H"
+				"RelationalDB_A"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "H",
-	"title": "Enhanced monitoring shall be enabled for Relational database instances to collect detailed performance metrics.",
+	"id": "A",
+	"title": "Relational database instances and clusters shall be encrypted at rest using JPMC standard encryption algorithms.",
 }
 
 # Please write your OPA rule here
+
 input_type = "tf"
 
 resource_type = "aws_db_instance"
@@ -22,6 +23,5 @@ resource_type = "aws_db_instance"
 default allow = false
 
 allow {
-  input.monitoring_interval > 0
+  input.storage_encrypted == true
 }
-
