@@ -1,17 +1,17 @@
-package rules.public_user_access_relation_uired_for_specific_use_cases
+package rules.relational_database_instanc_sation_encryption_algorithms
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_D"
+			"RelationalDB2": [
+				"RelationalDB2_A"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "D",
-	"title": "Public user access to Relational database instances and clusters shall be restricted unless explicitly required for specific use cases.",
+	"id": "A",
+	"title": "Relational database instances and clusters shall be encrypted at rest using organisation standard encryption algorithms.",
 }
 
 # Please write your OPA rule here
@@ -21,6 +21,6 @@ resource_type = "aws_db_instance"
 
 default allow = false
 allow {
-	input.publicly_accessible == false
+  input.storage_encrypted == true
 }
 

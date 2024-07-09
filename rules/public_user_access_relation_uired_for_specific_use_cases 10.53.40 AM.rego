@@ -1,17 +1,17 @@
-package rules.deletion_protection_for_rel_dental_unauthorized_deletion
+package rules.public_user_access_relation_uired_for_specific_use_cases
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_H"
+			"RelationalDB2": [
+				"RelationalDB2_D"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "H",
-	"title": "Deletion protection to be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
+	"id": "D",
+	"title": "Public user access to Relational database instances and clusters shall be restricted unless explicitly required for specific use cases.",
 }
 
 # Please write your OPA rule here
@@ -20,8 +20,7 @@ input_type = "tf"
 resource_type = "aws_db_instance"
 
 default allow = false
-
 allow {
-  input.deletion_protection == true
+	input.publicly_accessible == false
 }
 
